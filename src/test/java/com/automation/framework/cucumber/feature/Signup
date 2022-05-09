@@ -1,0 +1,5 @@
+Feature: Testing Signup Feature
+  Scenario: Creating a user with valid credentails
+    When I am a new user and opened the application
+    Then Create a new User
+    And Validate the created user
